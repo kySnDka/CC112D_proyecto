@@ -1,5 +1,5 @@
-# Funcion que cuenta las vocales de una cadena
-def contvocales(cadena: str):
+### Funcion que cuenta las vocales de una cadena
+def contvocales(cadena: str): # El parametro debe ser de tipo 'str'
     contador = 0
 
     for letra in cadena:
@@ -13,7 +13,7 @@ def contvocales(cadena: str):
     
     return contador
 
-# Codigo principal
+### Codigo principal
 while True:
     cadena1 = str(input('Ingrese una cadena para contar las vocales en ella ("-" para salir): '))
     if cadena1 == '-':
